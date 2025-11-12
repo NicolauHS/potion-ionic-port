@@ -1,6 +1,6 @@
-type Logo = React.Component<{ position?: string }>;
+type LogoProps = { position?: string };
 
-const Logo = ({ position }) => {
+const Logo = ({ position }: LogoProps) => {
   return (
     <img
       src="/images/PoTION_logo.svg"
