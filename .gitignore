@@ -22,3 +22,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+build
+.cache
+
+# Testing
+coverage
+
+# Ionic
+www/
+platforms/
+plugins/
+.sourcemaps/
+
+# OS
+Thumbs.db
