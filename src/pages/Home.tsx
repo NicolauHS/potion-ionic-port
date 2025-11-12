@@ -14,8 +14,8 @@ const Home: React.FC = () => {
           <IonTitle>Home</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
-        <h1>Welcome to Ionic React!</h1>
+      <IonContent className="ion-padding ">
+        <h1 className="">Welcome to Ionic React!</h1>
       </IonContent>
     </IonPage>
   );
