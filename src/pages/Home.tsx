@@ -23,6 +23,9 @@ const Home: React.FC = () => {
         <IonButton onClick={() => history.push("/sign-in")}>
           Go to Sign In
         </IonButton>
+        <IonButton onClick={() => history.push("/login")}>
+          Go to Login
+        </IonButton>
       </IonContent>
     </IonPage>
   );

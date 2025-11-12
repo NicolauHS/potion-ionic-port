@@ -41,10 +41,8 @@ const SignIn: React.FC = () => {
                 onClick={handleClick}
                 classes="w-full login-button-bg py-3"
               >
-                <GoogleIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-                <strong className="pl-2 !text-xs sm:!text-sm lg:!text-base">
-                  Começar aventura
-                </strong>
+                <GoogleIcon className="w-5 h-5" />
+                <strong className="pl-2 !text-base">Começar aventura</strong>
               </Button>
             </GlassForm>
           </div>

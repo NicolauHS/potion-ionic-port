@@ -4,6 +4,7 @@ import { IonReactRouter } from "@ionic/react-router";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
+import Login from "./pages/Login";
 
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <IonRouterOutlet>
           <Route exact path="/" component={Home} />
           <Route exact path="/sign-in" component={SignIn} />
+          <Route exact path="/login" component={Login} />
         </IonRouterOutlet>
       </IonReactRouter>
     </IonApp>
