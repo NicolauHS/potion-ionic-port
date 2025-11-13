@@ -14,6 +14,7 @@ import "@fontsource/inter/300.css";
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/700.css";
+import ValidateAcc from "./pages/ValidateAcc";
 
 setupIonicReact();
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/sign-in" component={SignIn} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/validate-acc" component={ValidateAcc} />
         </IonRouterOutlet>
       </IonReactRouter>
     </IonApp>

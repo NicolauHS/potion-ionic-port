@@ -26,6 +26,9 @@ const Home: React.FC = () => {
         <IonButton onClick={() => history.push("/login")}>
           Go to Login
         </IonButton>
+        <IonButton onClick={() => history.push("/validate-acc")}>
+          Go to Validate Account
+        </IonButton>
       </IonContent>
     </IonPage>
   );
