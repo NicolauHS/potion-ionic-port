@@ -18,7 +18,7 @@ Para desenvolvimento mobile:
 ### 1. Clone o repositório (se aplicável)
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/NicolauHS/potion-ionic-port.git
 cd my-ionic-app
 ```
 
@@ -28,21 +28,7 @@ cd my-ionic-app
 npm install
 ```
 
-### 3. Configure as variáveis de ambiente
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```bash
-cp .env.example .env
-```
-
-Edite o arquivo `.env` e configure sua URL da API:
-
-```env
-VITE_SERVER_API=https://sua-api-url.com
-```
-
-### 4. Execute o projeto em modo de desenvolvimento
+### 3. Execute o projeto em modo de desenvolvimento
 
 ```bash
 npm run dev
